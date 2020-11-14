@@ -1,0 +1,271 @@
+[INFO] compiling model...
+[INFO] training head...
+Epoch 1/25
+2020-10-20 08:52:19.208232: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cublas64_10.dll
+2020-10-20 08:52:21.540706: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library cudnn64_7.dll
+2020-10-20 08:52:27.340681: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: Invoking GPU asm compilation is supported on Cuda non-Windows platforms only
+Relying on driver to perform ptx compilation.
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+2020-10-20 08:52:28.475703: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.29GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-10-20 08:52:28.528543: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.34GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-10-20 08:52:28.848608: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.34GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-10-20 08:52:28.926875: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.14GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-10-20 08:52:29.002878: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.29GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+794/795 [============================>.] - ETA: 0s - loss: 2.9827 - accuracy: 0.58522020-10-20 08:57:08.709190: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.28GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-10-20 08:57:08.749589: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.30GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-10-20 08:57:08.848194: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.30GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-10-20 08:57:08.976559: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.28GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+795/795 [==============================] - 310s 390ms/step - loss: 2.9823 - accuracy: 0.5851 - val_loss: 79.2859 - val_accuracy: 0.1210
+Epoch 2/25
+795/795 [==============================] - 307s 386ms/step - loss: 1.2688 - accuracy: 0.7352 - val_loss: 13.8052 - val_accuracy: 0.4594
+Epoch 3/25
+795/795 [==============================] - 307s 386ms/step - loss: 1.0804 - accuracy: 0.7889 - val_loss: 2.0636 - val_accuracy: 0.7133
+Epoch 4/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.9841 - accuracy: 0.8174 - val_loss: 2.1132 - val_accuracy: 0.7238
+Epoch 5/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.8981 - accuracy: 0.8285 - val_loss: 2.4762 - val_accuracy: 0.7415
+Epoch 6/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.8455 - accuracy: 0.8461 - val_loss: 2.0325 - val_accuracy: 0.7782
+Epoch 7/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.7471 - accuracy: 0.8625 - val_loss: 1.9170 - val_accuracy: 0.7898
+Epoch 8/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.7110 - accuracy: 0.8756 - val_loss: 3.3450 - val_accuracy: 0.7813
+Epoch 9/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.6236 - accuracy: 0.8804 - val_loss: 3.2324 - val_accuracy: 0.7847
+Epoch 10/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.6394 - accuracy: 0.8855 - val_loss: 3.4754 - val_accuracy: 0.7892
+Epoch 11/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.5876 - accuracy: 0.8933 - val_loss: 3.3080 - val_accuracy: 0.7985
+Epoch 12/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.5723 - accuracy: 0.8955 - val_loss: 1.7151 - val_accuracy: 0.8084
+Epoch 13/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.5752 - accuracy: 0.8966 - val_loss: 3.5019 - val_accuracy: 0.7977
+Epoch 14/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.5681 - accuracy: 0.8997 - val_loss: 2.4892 - val_accuracy: 0.8050
+Epoch 15/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.4869 - accuracy: 0.9102 - val_loss: 2.6804 - val_accuracy: 0.8022
+Epoch 16/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.4558 - accuracy: 0.9144 - val_loss: 2.7536 - val_accuracy: 0.7957
+Epoch 17/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.5120 - accuracy: 0.9124 - val_loss: 3.0396 - val_accuracy: 0.7966
+Epoch 18/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.4545 - accuracy: 0.9216 - val_loss: 2.6048 - val_accuracy: 0.7903
+Epoch 19/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.4424 - accuracy: 0.9212 - val_loss: 2.9512 - val_accuracy: 0.8180
+Epoch 20/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.4592 - accuracy: 0.9189 - val_loss: 3.2203 - val_accuracy: 0.7983
+Epoch 21/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.4141 - accuracy: 0.9270 - val_loss: 3.0637 - val_accuracy: 0.8022
+Epoch 22/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.3943 - accuracy: 0.9296 - val_loss: 3.3659 - val_accuracy: 0.7980
+Epoch 23/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.3950 - accuracy: 0.9308 - val_loss: 2.6954 - val_accuracy: 0.8205
+Epoch 24/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.3753 - accuracy: 0.9364 - val_loss: 2.5889 - val_accuracy: 0.8025
+Epoch 25/25
+795/795 [==============================] - 307s 386ms/step - loss: 0.3582 - accuracy: 0.9319 - val_loss: 2.9790 - val_accuracy: 0.7940
+[INFO] re-compiling model...
+[INFO] fine-tuning model...
+Epoch 1/100
+2020-10-20 11:00:42.374774: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.27GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+795/795 [==============================] - ETA: 0s - loss: 1.3690 - accuracy: 0.7079     
+Epoch 00001: val_accuracy improved from -inf to 0.72940, saving model to ./model_checkpoint\weights-improvement-01-0.73.h5
+795/795 [==============================] - 366s 460ms/step - loss: 1.3690 - accuracy: 0.7079 - val_loss: 1.1451 - val_accuracy: 0.7294
+Epoch 2/100
+795/795 [==============================] - ETA: 0s - loss: 0.5430 - accuracy: 0.8704  
+Epoch 00002: val_accuracy improved from 0.72940 to 0.77906, saving model to ./model_checkpoint\weights-improvement-02-0.78.h5
+795/795 [==============================] - 363s 457ms/step - loss: 0.5430 - accuracy: 0.8704 - val_loss: 0.9295 - val_accuracy: 0.7791
+Epoch 3/100
+795/795 [==============================] - ETA: 0s - loss: 0.3372 - accuracy: 0.9232  
+Epoch 00003: val_accuracy improved from 0.77906 to 0.79430, saving model to ./model_checkpoint\weights-improvement-03-0.79.h5
+795/795 [==============================] - 363s 457ms/step - loss: 0.3372 - accuracy: 0.9232 - val_loss: 3.1172 - val_accuracy: 0.7943
+Epoch 4/100
+795/795 [==============================] - ETA: 0s - loss: 0.2557 - accuracy: 0.9349  
+Epoch 00004: val_accuracy improved from 0.79430 to 0.80869, saving model to ./model_checkpoint\weights-improvement-04-0.81.h5
+795/795 [==============================] - 364s 457ms/step - loss: 0.2557 - accuracy: 0.9349 - val_loss: 1.4474 - val_accuracy: 0.8087
+Epoch 5/100
+795/795 [==============================] - ETA: 0s - loss: 0.2079 - accuracy: 0.9523  
+Epoch 00005: val_accuracy improved from 0.80869 to 0.81857, saving model to ./model_checkpoint\weights-improvement-05-0.82.h5
+795/795 [==============================] - 364s 457ms/step - loss: 0.2079 - accuracy: 0.9523 - val_loss: 2.9269 - val_accuracy: 0.8186
+Epoch 6/100
+795/795 [==============================] - ETA: 0s - loss: 0.1935 - accuracy: 0.9523  
+Epoch 00006: val_accuracy improved from 0.81857 to 0.82731, saving model to ./model_checkpoint\weights-improvement-06-0.83.h5
+795/795 [==============================] - 364s 457ms/step - loss: 0.1935 - accuracy: 0.9523 - val_loss: 2.2805 - val_accuracy: 0.8273
+Epoch 7/100
+795/795 [==============================] - ETA: 0s - loss: 0.1667 - accuracy: 0.9568  
+Epoch 00007: val_accuracy improved from 0.82731 to 0.84368, saving model to ./model_checkpoint\weights-improvement-07-0.84.h5
+795/795 [==============================] - 364s 458ms/step - loss: 0.1667 - accuracy: 0.9568 - val_loss: 2.6239 - val_accuracy: 0.8437
+Epoch 8/100
+795/795 [==============================] - ETA: 0s - loss: 0.1592 - accuracy: 0.9635      
+Epoch 00008: val_accuracy did not improve from 0.84368
+795/795 [==============================] - 362s 455ms/step - loss: 0.1592 - accuracy: 0.9635 - val_loss: 2.2206 - val_accuracy: 0.8315
+Epoch 9/100
+795/795 [==============================] - ETA: 0s - loss: 0.1268 - accuracy: 0.9666  
+Epoch 00009: val_accuracy improved from 0.84368 to 0.85102, saving model to ./model_checkpoint\weights-improvement-09-0.85.h5
+795/795 [==============================] - 363s 457ms/step - loss: 0.1268 - accuracy: 0.9666 - val_loss: 2.4126 - val_accuracy: 0.8510
+Epoch 10/100
+795/795 [==============================] - ETA: 0s - loss: 0.1293 - accuracy: 0.9664  
+Epoch 00010: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.1293 - accuracy: 0.9664 - val_loss: 1.3617 - val_accuracy: 0.8392
+Epoch 11/100
+795/795 [==============================] - ETA: 0s - loss: 0.1110 - accuracy: 0.9692  
+Epoch 00011: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.1110 - accuracy: 0.9692 - val_loss: 1.4728 - val_accuracy: 0.8457
+Epoch 12/100
+795/795 [==============================] - ETA: 0s - loss: 0.1018 - accuracy: 0.9725  
+Epoch 00012: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.1018 - accuracy: 0.9725 - val_loss: 1.5667 - val_accuracy: 0.8287
+Epoch 13/100
+795/795 [==============================] - ETA: 0s - loss: 0.1025 - accuracy: 0.9715  
+Epoch 00013: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.1025 - accuracy: 0.9715 - val_loss: 1.9676 - val_accuracy: 0.8454
+Epoch 14/100
+795/795 [==============================] - ETA: 0s - loss: 0.0885 - accuracy: 0.9741  
+Epoch 00014: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.0885 - accuracy: 0.9741 - val_loss: 1.9058 - val_accuracy: 0.8344
+Epoch 15/100
+795/795 [==============================] - ETA: 0s - loss: 0.0868 - accuracy: 0.9739      
+Epoch 00015: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.0868 - accuracy: 0.9739 - val_loss: 1.9386 - val_accuracy: 0.8349
+Epoch 16/100
+795/795 [==============================] - ETA: 0s - loss: 0.0838 - accuracy: 0.9762  
+Epoch 00016: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.0838 - accuracy: 0.9762 - val_loss: 2.2994 - val_accuracy: 0.8259
+Epoch 17/100
+795/795 [==============================] - ETA: 0s - loss: 0.0766 - accuracy: 0.9772      
+Epoch 00017: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.0766 - accuracy: 0.9772 - val_loss: 2.2771 - val_accuracy: 0.8174
+Epoch 18/100
+795/795 [==============================] - ETA: 0s - loss: 0.0794 - accuracy: 0.9770  
+Epoch 00018: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.0794 - accuracy: 0.9770 - val_loss: 1.8227 - val_accuracy: 0.8383
+Epoch 19/100
+795/795 [==============================] - ETA: 0s - loss: 0.0915 - accuracy: 0.9759      
+Epoch 00019: val_accuracy did not improve from 0.85102
+795/795 [==============================] - 362s 455ms/step - loss: 0.0915 - accuracy: 0.9759 - val_loss: 2.2160 - val_accuracy: 0.8496
+Epoch 20/100
+795/795 [==============================] - ETA: 0s - loss: 0.0698 - accuracy: 0.9793  
+Epoch 00020: val_accuracy improved from 0.85102 to 0.85638, saving model to ./model_checkpoint\weights-improvement-20-0.86.h5
+795/795 [==============================] - 363s 457ms/step - loss: 0.0698 - accuracy: 0.9793 - val_loss: 2.2721 - val_accuracy: 0.8564
+Epoch 21/100
+795/795 [==============================] - ETA: 0s - loss: 0.0764 - accuracy: 0.9777      
+Epoch 00021: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 456ms/step - loss: 0.0764 - accuracy: 0.9777 - val_loss: 2.2171 - val_accuracy: 0.8361
+Epoch 22/100
+795/795 [==============================] - ETA: 0s - loss: 0.0721 - accuracy: 0.9776  
+Epoch 00022: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0721 - accuracy: 0.9776 - val_loss: 1.9525 - val_accuracy: 0.8442
+Epoch 23/100
+795/795 [==============================] - ETA: 0s - loss: 0.0745 - accuracy: 0.9790  
+Epoch 00023: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0745 - accuracy: 0.9790 - val_loss: 2.1092 - val_accuracy: 0.8505
+Epoch 24/100
+795/795 [==============================] - ETA: 0s - loss: 0.0640 - accuracy: 0.9803      
+Epoch 00024: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0640 - accuracy: 0.9803 - val_loss: 1.8123 - val_accuracy: 0.8482
+Epoch 25/100
+795/795 [==============================] - ETA: 0s - loss: 0.0680 - accuracy: 0.9799      
+Epoch 00025: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0680 - accuracy: 0.9799 - val_loss: 2.3966 - val_accuracy: 0.8496
+Epoch 26/100
+795/795 [==============================] - ETA: 0s - loss: 0.0694 - accuracy: 0.9796      
+Epoch 00026: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0694 - accuracy: 0.9796 - val_loss: 2.3826 - val_accuracy: 0.8462
+Epoch 27/100
+795/795 [==============================] - ETA: 0s - loss: 0.0623 - accuracy: 0.9809      
+Epoch 00027: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0623 - accuracy: 0.9809 - val_loss: 1.9963 - val_accuracy: 0.8564
+Epoch 28/100
+795/795 [==============================] - ETA: 0s - loss: 0.0580 - accuracy: 0.9828  
+Epoch 00028: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0580 - accuracy: 0.9828 - val_loss: 2.2754 - val_accuracy: 0.8400
+Epoch 29/100
+795/795 [==============================] - ETA: 0s - loss: 0.0557 - accuracy: 0.9825  
+Epoch 00029: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0557 - accuracy: 0.9825 - val_loss: 2.1680 - val_accuracy: 0.8524
+Epoch 30/100
+795/795 [==============================] - ETA: 0s - loss: 0.0565 - accuracy: 0.9830      
+Epoch 00030: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0565 - accuracy: 0.9830 - val_loss: 2.3949 - val_accuracy: 0.8482
+Epoch 31/100
+795/795 [==============================] - ETA: 0s - loss: 0.0556 - accuracy: 0.9823      
+Epoch 00031: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0556 - accuracy: 0.9823 - val_loss: 2.3570 - val_accuracy: 0.8547
+Epoch 32/100
+795/795 [==============================] - ETA: 0s - loss: 0.0566 - accuracy: 0.9829  
+Epoch 00032: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0566 - accuracy: 0.9829 - val_loss: 2.3680 - val_accuracy: 0.8389
+Epoch 33/100
+795/795 [==============================] - ETA: 0s - loss: 0.0564 - accuracy: 0.9832      
+Epoch 00033: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0564 - accuracy: 0.9832 - val_loss: 2.1759 - val_accuracy: 0.8434
+Epoch 34/100
+795/795 [==============================] - ETA: 0s - loss: 0.0565 - accuracy: 0.9833      
+Epoch 00034: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0565 - accuracy: 0.9833 - val_loss: 2.0241 - val_accuracy: 0.8414
+Epoch 35/100
+795/795 [==============================] - ETA: 0s - loss: 0.0537 - accuracy: 0.9829      
+Epoch 00035: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0537 - accuracy: 0.9829 - val_loss: 1.8580 - val_accuracy: 0.8465
+Epoch 36/100
+795/795 [==============================] - ETA: 0s - loss: 0.0533 - accuracy: 0.9837  
+Epoch 00036: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0533 - accuracy: 0.9837 - val_loss: 2.4366 - val_accuracy: 0.8338
+Epoch 37/100
+795/795 [==============================] - ETA: 0s - loss: 0.0518 - accuracy: 0.9846  
+Epoch 00037: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0518 - accuracy: 0.9846 - val_loss: 2.0975 - val_accuracy: 0.8400
+Epoch 38/100
+795/795 [==============================] - ETA: 0s - loss: 0.0518 - accuracy: 0.9846  
+Epoch 00038: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0518 - accuracy: 0.9846 - val_loss: 2.6641 - val_accuracy: 0.8465
+Epoch 39/100
+795/795 [==============================] - ETA: 0s - loss: 0.0515 - accuracy: 0.9844      
+Epoch 00039: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0515 - accuracy: 0.9844 - val_loss: 2.8277 - val_accuracy: 0.8355
+Epoch 40/100
+795/795 [==============================] - ETA: 0s - loss: 0.0464 - accuracy: 0.9854  
+Epoch 00040: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0464 - accuracy: 0.9854 - val_loss: 3.0712 - val_accuracy: 0.8344
+Epoch 41/100
+795/795 [==============================] - ETA: 0s - loss: 0.0479 - accuracy: 0.9853  
+Epoch 00041: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0479 - accuracy: 0.9853 - val_loss: 2.6042 - val_accuracy: 0.8299
+Epoch 42/100
+795/795 [==============================] - ETA: 0s - loss: 0.0450 - accuracy: 0.9850      
+Epoch 00042: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0450 - accuracy: 0.9850 - val_loss: 2.3137 - val_accuracy: 0.8347
+Epoch 43/100
+795/795 [==============================] - ETA: 0s - loss: 0.0482 - accuracy: 0.9855      
+Epoch 00043: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0482 - accuracy: 0.9855 - val_loss: 2.9990 - val_accuracy: 0.8293
+Epoch 44/100
+795/795 [==============================] - ETA: 0s - loss: 0.0468 - accuracy: 0.9855  
+Epoch 00044: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0468 - accuracy: 0.9855 - val_loss: 2.3194 - val_accuracy: 0.8335
+Epoch 45/100
+795/795 [==============================] - ETA: 0s - loss: 0.0390 - accuracy: 0.9867      
+Epoch 00045: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0390 - accuracy: 0.9867 - val_loss: 2.8743 - val_accuracy: 0.8361
+Epoch 46/100
+795/795 [==============================] - ETA: 0s - loss: 0.0431 - accuracy: 0.9873  
+Epoch 00046: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0431 - accuracy: 0.9873 - val_loss: 2.1217 - val_accuracy: 0.8361
+Epoch 47/100
+795/795 [==============================] - ETA: 0s - loss: 0.0423 - accuracy: 0.9869  
+Epoch 00047: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0423 - accuracy: 0.9869 - val_loss: 2.6109 - val_accuracy: 0.8420
+Epoch 48/100
+795/795 [==============================] - ETA: 0s - loss: 0.0432 - accuracy: 0.9861      
+Epoch 00048: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0432 - accuracy: 0.9861 - val_loss: 2.6440 - val_accuracy: 0.8386
+Epoch 49/100
+795/795 [==============================] - ETA: 0s - loss: 0.0409 - accuracy: 0.9864  
+Epoch 00049: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0409 - accuracy: 0.9864 - val_loss: 3.4532 - val_accuracy: 0.8341
+Epoch 50/100
+795/795 [==============================] - ETA: 0s - loss: 0.0419 - accuracy: 0.9863      
+Epoch 00050: val_accuracy did not improve from 0.85638
+795/795 [==============================] - 362s 455ms/step - loss: 0.0419 - accuracy: 0.9863 - val_loss: 2.0771 - val_accuracy: 0.8375
+Epoch 51/100
